@@ -6,9 +6,25 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    # START Joystick #####
+    - name: badjeff
+      url-base: https://github.com/badjeff
+    # END #######
+    # support nice_oled and nice_epaper
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
+    # START Joystick #####
+    - name: zmk-analog-input-driver
+      remote: badjeff
+      revision: main
+    # END #######
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    # support nice_oled and nice_epaper
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
   self:
     path: config
