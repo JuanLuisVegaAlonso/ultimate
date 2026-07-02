@@ -17,7 +17,7 @@ manifest:
     # START Joystick #####
     - name: zmk-analog-input-driver
       remote: badjeff
-      revision: v0.3
+      revision: main
     # END #######
     - name: zmk
       remote: zmkfirmware
@@ -25,6 +25,6 @@ manifest:
     # support nice_oled and nice_epaper
     - name: zmk-nice-oled
       remote: mctechnology17
-      revision: main
+      revision: v0.3
   self:
     path: config
