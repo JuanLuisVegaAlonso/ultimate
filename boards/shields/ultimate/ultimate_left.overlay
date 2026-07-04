@@ -53,13 +53,16 @@
 			evt-type = <INPUT_EV_REL>;
 			input-code = <INPUT_REL_Y>;
 
-			/* enable report mdoe for gamepad axix or knob */
-			/* to only call input_report on quantquantized value is updated */
-			/* NOTE: mouse input does NOT need this */
-			report-on-change-only;
 
 		};
 	};
+    analog_input_listener {
+        compatible = "zmk,input-listener";
+        device = <&anin0>;
+        
+        // Maps X to HID Mouse X, Y to HID Mouse Y
+        input-processors = <&zip_xy_transform>;
+    };
 };
 
 &pinctrl {
@@ -102,3 +105,4 @@
         prechargep = <0x22>;
     };
 };
+
