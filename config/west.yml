@@ -19,7 +19,7 @@ manifest:
       remote: badjeff
       revision: main
     # END #######
-    - name: zmk-with-oversampling-0
+    - name: zmk
       remote: juan
       import: app/west.yml
       revision: v0.3.1
