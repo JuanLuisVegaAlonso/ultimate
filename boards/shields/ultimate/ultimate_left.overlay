@@ -62,7 +62,7 @@
         device = <&anin0>;
         
         // Maps X to HID Mouse X, Y to HID Mouse Y
-        input-processors = <&zip_xy_transform>;
+        //input-processors = <&zip_xy_transform>;
     };
 };
 
