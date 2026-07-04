@@ -2,8 +2,8 @@ manifest:
   defaults:
     revision: v0.3
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: juan
+      url-base: https://github.com/JuanLuisVegaAlonso
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     # START Joystick #####
@@ -19,10 +19,10 @@ manifest:
       remote: badjeff
       revision: main
     # END #######
-    - name: zmk
-      remote: zmkfirmware
+    - name: zmk-with-oversampling-0
+      remote: juan
       import: app/west.yml
-      revision: v0.3
+      revision: v0.3.1
     # support nice_oled and nice_epaper
     - name: zmk-nice-oled
       remote: mctechnology17
