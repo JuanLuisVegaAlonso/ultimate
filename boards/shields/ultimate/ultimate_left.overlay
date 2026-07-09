@@ -33,10 +33,10 @@
 		compatible = "zmk,analog-input";
 		sampling-hz = <1000>;
 		x-ch {
-			io-channels = <&adc 5>; // <--- see ain-map.png for nRF52840
-			mv-mid = <1830>;
+			io-channels = <&adc 5>; // 29 <--- see ain-map.png for nRF52840
+			mv-mid = <1650>;
 			mv-min-max = <1500>;
-			mv-deadzone = <200>;
+			mv-deadzone = <100>;
 			scale-multiplier = <1>;
 			scale-divisor = <700>;
 			invert;
@@ -44,10 +44,10 @@
 			input-code = <INPUT_REL_X>;
 		};
 		y-ch {
-			io-channels = <&adc 7>; // <--- see ain-map.png for nRF52840
-			mv-mid = <2080>;
+			io-channels = <&adc 7>; // 31 <--- see ain-map.png for nRF52840
+			mv-mid = <1650>;
 			mv-min-max = <1500>;
-			mv-deadzone = <200>;
+			mv-deadzone = <100>;
 			scale-multiplier = <1>;
 			scale-divisor = <700>;
 			invert;
