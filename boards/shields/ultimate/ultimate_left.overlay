@@ -34,9 +34,9 @@
 		sampling-hz = <1000>;
 		x-ch {
 			io-channels = <&adc 5>; // <--- see ain-map.png for nRF52840
-			mv-mid = <1630>;
+			mv-mid = <1830>;
 			mv-min-max = <1500>;
-			mv-deadzone = <100>;
+			mv-deadzone = <200>;
 			scale-multiplier = <1>;
 			scale-divisor = <700>;
 			invert;
@@ -45,9 +45,9 @@
 		};
 		y-ch {
 			io-channels = <&adc 7>; // <--- see ain-map.png for nRF52840
-			mv-mid = <1630>;
+			mv-mid = <2080>;
 			mv-min-max = <1500>;
-			mv-deadzone = <100>;
+			mv-deadzone = <200>;
 			scale-multiplier = <1>;
 			scale-divisor = <700>;
 			invert;
