@@ -61,7 +61,7 @@
                     &trans      &trans     &trans     &trans     &trans     &trans        &kp HOME  &kp PG_DN   &kp PG_UP   &kp END   &kp COLON
                 //├──────────┼──────────┼──────────┼──────────┼──────────├──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
                 //│  TAB     │  INS     │  7       │  8       │  9       │PRINTSCREN│   │  LEFT    │  DOWN    │  UP      │  RIGHT   │ ;        │
-                    &kp TAB      &kp INS   &kp N7      &kp N8    kp N9    &kp PRINTSCREEN &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT   &kp SEMI
+                    &kp TAB      &kp INS   &kp N7      &kp N8    &kp N9    &kp PRINTSCREEN &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT   &kp SEMI
                 //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
                 //│  LSHFT   │  DELETE  │  4       │  5       │  6       │context m │   │  -       │  -       │   -      │   -      │   -      │
                     &kp LSHFT   &kp DEL      &kp N4   &kp N5      &kp N6  &kp K_APP       &trans     &trans   &trans       &trans    &trans 
