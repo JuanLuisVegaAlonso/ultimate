@@ -22,7 +22,7 @@ manifest:
     - name: zmk
       remote: juan
       import: app/west.yml
-      revision: v0.3.1
+      revision: v0.3.0
     # support nice_oled and nice_epaper
     - name: zmk-nice-oled
       remote: mctechnology17
