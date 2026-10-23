@@ -61,13 +61,13 @@
                     &trans      &trans     &trans     &trans     &trans     &trans        &kp HOME  &kp PG_DN   &kp PG_UP   &kp END   &kp COLON
                 //├──────────┼──────────┼──────────┼──────────┼──────────├──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
                 //│  TAB     │  INS     │  7       │  8       │  9       │PRINTSCREN│   │  LEFT    │  DOWN    │  UP      │  RIGHT   │ ;        │
-                    &kp TAB      &kp INS   &kp 7      &kp 8      &kp 9    &kp PRINTSC    &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT   &kp  SEMI
+                    &kp TAB      &kp INS   &kp N7      &kp N8    kp N9    &kp PRINTSCREEN &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT   &kp  SEMI
                 //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
                 //│  LSHFT   │  DELETE  │  4       │  5       │  6       │context m │   │  -       │  -       │   -      │   -      │   -      │
-                    &kp LSHFT   &kp DEL      &kp 4       &kp 5      &kp 6  &kp K_APP       &trans     &trans   &trans       &trans    &trans 
+                    &kp LSHFT   &kp DEL      &kp N4   &kp N5      &kp N6  &kp K_APP       &trans     &trans   &trans       &trans    &trans 
                 //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
                 //│  LCTRL   │  CAPS    │  1       │  2       │  3       │ .        │   │ -        │ -        │ -        │
-                    &kp LCTRL &caps_word  &kp N2      &kp 2      &kp 3     &kp DOT         &trans  &trans    &trans
+                    &kp LCTRL &caps_word  &kp N1      &kp N2      &kp N3     &kp DOT         &trans  &trans    &trans
                 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ╰──────────┴──────────┴──────────╯
                                                     &kp ESC   &kp 0        &kp ESC 
                 //                                 ╰──────────┴──────────┴──────────╯   
