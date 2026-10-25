@@ -89,7 +89,7 @@
                 //│  LCTRL   │  CAPS    │  2       │  3       │  V       │  B       │   │ -        │ -        │ -        │
                     &kp LCTRL &caps_word  &kp 2      &kp 3      &kp V      &kp B          &trans  &trans    &trans
                 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ╰──────────┴──────────┴──────────╯
-                                                    &kp ESC     &trans     p&kp ENTER 
+                                                    &kp ESC     &trans     &kp ENTER 
                 //                                 ╰──────────┴──────────┴──────────╯   
             >;
         };
