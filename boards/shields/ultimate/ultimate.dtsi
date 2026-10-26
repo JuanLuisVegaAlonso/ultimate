@@ -15,9 +15,9 @@
     };
 
     wakeup_source {
-        compatible = "zmk,soft-off-wakeup-sources"
+        compatible = "zmk,soft-off-wakeup-sources";
         wakeup-sources = <&kscan0>;
-    }
+    };
 };
 
 / {
