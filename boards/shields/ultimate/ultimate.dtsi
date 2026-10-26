@@ -14,7 +14,6 @@
 
     };
 
-    {
     wakeup_scan: wakeup_scan {
         compatible = "zmk,gpio-key-wakeup-trigger";
         trigger = <&soft_off_gpio_key>;
