@@ -94,11 +94,11 @@
             >;
         };
         third_layer {
-            display-name = "Comms";
+            display-name = "CommSys";
             bindings = <
                 //╭─────────────┬────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
                 //│PROFILE 0    │PROFILE 1   │PROFILE 2    │PROFILE 3    │PROFILE 4    │PROFILE 5    │   │          │          │          │          │  RESET   │
-                   &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_SEL 4      &trans       &trans   &trans     &trans     &sys_reset
+                   &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_SEL 4      &soft_off       &trans   &trans     &trans     &sys_reset
                 //├─────────────┼────────────┼─────────────┼─────────────┼─────────────├─────────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
                 //│             │ RESET      │             │             │             │PROFILE 0    │   │          │          │          │          │BOOTLOADER│
                     &trans       &sys_reset     &trans       &trans      &trans         &bt BT_SEL 0       &trans     &trans     &trans     &trans    &bootloader
