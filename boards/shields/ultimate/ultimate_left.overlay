@@ -24,8 +24,8 @@
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
         ;
 };
-
+/*
 &adc {
 	status = "okay";
 };
-
+*/
