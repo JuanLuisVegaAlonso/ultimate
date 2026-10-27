@@ -26,10 +26,6 @@
     };
 };
 
-
-&soft_off {
-    /delete-property/ split-peripheral-off-on-press;
-};
 / {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
