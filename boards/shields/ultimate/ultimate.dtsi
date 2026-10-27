@@ -21,10 +21,11 @@
         compatible = "zmk,soft-off-wakeup-sources";
         wakeup-sources = <&kscan0>;
     };
-    &soft_off {
+};
+
+&soft_off {
         /delete-property/ split-peripheral-off-on-press;
     };
-};
 
 / {
     default_transform: keymap_transform0 {
